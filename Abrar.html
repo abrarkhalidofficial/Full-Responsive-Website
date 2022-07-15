@@ -40,15 +40,27 @@
 <script>
     var menu_button = document.getElementById("menu_button")
     var sidenavbar = document.getElementById("sidenavbar")
-    sidenavbar.style.right ="-250px";
-    menu_button.onclick=function () {
+    sidenavbar .style.right ="-250px";
+    menu_button.onclick=function()
+    {
         if( sidenavbar.style.right ="-250px"){
-            
+            sidenavbar.style.right ="0"
+        }
+        else{
+            sidenavbar.style.right ="-250px"
         }
     }
 
 </script>
 
 
+
+
+<section class="about">
+    <div class="about_left_side">
+        <img src="./img/about.png" alt="">
+    </div>
+    <div class="about_right_side"></div>
+</section>
 </body>
 </html>
